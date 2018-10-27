@@ -48,8 +48,8 @@ async def on_message(message):
         await client.send_message(message.channel, "Dieser Bot wurde von Hendrik erstellt. Bin stolz drauf.")
 
 
-    if message.content.startswith("!memes"):
-        await client.send_message(message.channel, "Memes an die Macht!")
+    if message.content.startswith("!meow"):
+        await client.send_message(message.channel, "Meow!")
 
 
     if message.content.lower().startswith("!info"):
@@ -158,4 +158,4 @@ client.loop.create_task(total_uptime())
 
 
 
-client.run(str(os.environ.get('BOT_TOKEN')))
+client.run(str(os.environ.get('NTAzNjUxNzgzMzE1NDIzMjMy.DrXfMQ.ZIZmq4ZQnC3v0sFgvEg05R70IOI')))
