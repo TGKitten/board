@@ -1,1 +1,2 @@
-# board
+# BoredBot
+BoredBot
